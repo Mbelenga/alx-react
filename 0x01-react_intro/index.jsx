@@ -1,6 +1,9 @@
 import { createRoot } from "react-dom/client"
 
-// creating a root
-const root = createRoot(document.getElementById("root"))
-// Render some markup to the root
-root.render(<h1>Hello, React</h1>)
+createRoot(document.getElementById("react")).render(
+    <ul>
+        <li> Super Popular Javascript library </li>
+        <li> Will help me be even more employable </li>
+        <li> React has a really cool logo </li>
+    </ul>
+)
