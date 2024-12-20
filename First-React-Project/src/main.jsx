@@ -1,10 +1,6 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+ import { create Root } from "react-dom/client"
 
-createRoot(document.getElementById('root')).render(
-  <h1>
-    I love React
-  </h1>,
-)
+ const root = createRoot(document.getElementById("root"))
+ root.render(
+  <h1> Hello from React</h1>
+ )
