@@ -5,3 +5,5 @@ hello = function() {
 hello = () => {
     return "Hello, World!";
 }
+// if it has only one statement
+hello = () => "Hello, World!";
