@@ -11,4 +11,7 @@ hello = () => {
 hello = () => "Hello, World!";
 
 // With parameters
-hello = (val) => "Hello " + val; 
+hello = (val) => "Hello " + val;
+
+// Without parenthesis
+hello = val => "Hello " + val;
