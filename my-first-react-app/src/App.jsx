@@ -1,6 +1,5 @@
-// App.jsx
 import React from 'react';
-import Greeting from './Greetings'; // Adjust the path if necessary
+import Greeting from './Greetings';
 
 function App() {
     return (
