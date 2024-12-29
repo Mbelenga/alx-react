@@ -4,8 +4,8 @@ function Food() {
       <h1> My Favourite Food</h1>
       <ul>
         <li>Pizza</li>
-        <li>Orange</li>
-        <li>Banana</li>
+        <li>Pilau</li>
+        <li>Nyama Choma</li>
       </ul>
     </div>
   );
