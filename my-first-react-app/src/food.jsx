@@ -3,7 +3,7 @@ function Food() {
     <div>
       <h1> My Favourite Food</h1>
       <ul>
-        <li>Pizza</li>
+        <li>Chicken</li>
         <li>Pilau</li>
         <li>Nyama Choma</li>
       </ul>
