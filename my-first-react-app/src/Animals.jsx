@@ -11,3 +11,5 @@ function Animal() {
         </div>
     );
 }
+
+export default Animal;
