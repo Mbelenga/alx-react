@@ -18,5 +18,5 @@ console.log(lapsCompleted)
 function increment() {
     console.log('clicked')
     count = count + 1
-    console.log(c
+    console.log(count)
 }
