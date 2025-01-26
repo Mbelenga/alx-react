@@ -1,13 +1,14 @@
-// document.getElementById("count-el").innerText = 5
+// Initialize the count variable
+let count = 0;
 
-// change the count-el in the HTML  to reflect the new count
-let count = 0
+// Get the element by its ID
+let countEL = document.getElementById("count-el");
 
-let countEL = document.getElementById("count-el") // pass in arguments
+// Set the initial value of 0
+countEL.innerText = count;
 
-console.log(countEl)
-
+// Define the increment function
 function increment() {
-    count = count + 1
-    countEL.innerText = count
+    count += 1; // Increment the count
+    countEL.innerText = count; // Update the displayed count
 }
