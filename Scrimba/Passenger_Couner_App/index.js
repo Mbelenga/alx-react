@@ -12,3 +12,10 @@ function increment() {
     count += 1; // Increment the count
     countEL.innerText = count; // Update the displayed count
 }
+// Creating a function save()
+
+function save() {
+    console.log(count)
+}
+
+save()
