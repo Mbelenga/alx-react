@@ -20,7 +20,7 @@ function save() {
 
 save()
 
-let username = 'per'
+let username = 'person'
 
 let message = "You have three new notifications"
 console.log(message + username)
