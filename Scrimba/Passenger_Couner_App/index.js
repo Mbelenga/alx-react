@@ -1,21 +1,21 @@
 // Initialize the count variable
 let count = 0;
 
-// Get the element by its ID
-let countEL = document.getElementById("count-el"); // pass in arguments 
-console.log(countEL);
+// Get the elements by their IDs
+let countEL = document.getElementById("count-el");
+let saveEl = document.getElementById("save-el");
+
 // Set the initial value of 0
-countEL.innerText = count;
+countEL.textContent = count;
 
 // Define the increment function
 function increment() {
     count += 1; // Increment the count
-    countEL.innerText = count; // Update the displayed count
+    countEL.textContent = count; // Update the displayed count
 }
-// Creating a function save()
 
+// Define the save function
 function save() {
-    console.log(count)
+    let countSTR = count + " - ";
+    saveEl.innerText += countSTR; // Append the count to saveEl
 }
-
-save()
