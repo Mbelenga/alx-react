@@ -2,7 +2,7 @@
 let count = 0;
 
 // Get the element by its ID
-let countEL = document.getElementById("count-el");
+let countEL = document.getElementById("count-el"); // pass in arguments 
 console.log(countEL);
 // Set the initial value of 0
 countEL.innerText = count;
