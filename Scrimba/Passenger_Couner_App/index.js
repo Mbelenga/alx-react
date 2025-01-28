@@ -3,7 +3,7 @@ let count = 0;
 
 // Get the element by its ID
 let countEL = document.getElementById("count-el");
-
+console.log(countEL);
 // Set the initial value of 0
 countEL.innerText = count;
 
