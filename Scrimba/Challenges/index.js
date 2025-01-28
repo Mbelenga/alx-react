@@ -6,4 +6,5 @@ let greeting = "How are you doing?"
 // Rendering the welcome message using welcomeEL.innertext
 welcomeEL.innerText = greeting + name
 
-welcomeEL.innerText = welcomeEL.innerText + " 😀"
+welcomeEL.innerText = welcomeEL.innerText + " 😀" // longer version
+welcomeEL.innerText += " 😀" // shorter version
