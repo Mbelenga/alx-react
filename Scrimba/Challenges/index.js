@@ -1,3 +1,4 @@
+/*
 let welcomeEL = document.getElementById("welcome-el")
 
 let name = "Terrence"
@@ -8,3 +9,12 @@ welcomeEL.innerText = greeting + name
 
 welcomeEL.innerText = welcomeEL.innerText + " 😀" // longer version
 welcomeEL.innerText += " 😀" // shorter version
+*/
+let name = "Linda"
+let greeting = "Hi there"
+
+// Create a function that logs out "Hi there, Linda!" when called
+function sayHello() {
+    console.log(greeting + ", " + name + "!")
+}
+sayHello()
