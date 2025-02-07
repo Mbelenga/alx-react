@@ -5,7 +5,7 @@
 let errorParagraph = document.getElementById("error");
 console.log(errorParagraph)
 
-function purchse() {
+function purchase() {
     console.log("button clicked")
-    errorParagraph.textContent = "Something went wrong, please try again"
+    errorParagraph.textContent = "Something went wrong, please try again";
 }
