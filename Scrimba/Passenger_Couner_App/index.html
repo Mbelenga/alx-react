@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,5 +15,26 @@
     <p id="save-el">Previous entries: </p>
     <script src="index.js"></script>
     
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple passenger counting application">
+    <title>Passenger Counter App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <img src="station.jpg" alt="Train station background" class="background-image">
+    <div class="counter-card">
+        <h1>PASSENGER<br>COUNTER</h1>
+        <div id="count-el" class="count-display">0</div>
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <p id="save-el">Previous entries: </p>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
