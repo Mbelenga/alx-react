@@ -8,7 +8,7 @@ sum = firstCard + secondCard
 if (sum < 21) {
     console.log("Do you want to draw a new card? 🙂")
 }
-else (sun === 21) {
+else if (sun === 21) {
     console.log("Wohoo! You've got Blackjack! 🥳")
 }
 else {
