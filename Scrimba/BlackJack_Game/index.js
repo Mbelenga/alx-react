@@ -11,6 +11,7 @@ if (sum <= 20) {
     hasBlackJack = true
 } else {
     console.log("You're out of the game! 😭")
+    isAlive = false
 }
 console.log(hasBlackJack)
 
@@ -20,3 +21,4 @@ console.log(hasBlackJack)
 // else if exactly 21 -> "Wohoo! You've got Blackjack! 🥳"
 // else -> "You're out of the game! 😭"
 // 1. Create a variable called isAlive and assign it to true
+// 2. Flip its value to false in the appropriate code block 
