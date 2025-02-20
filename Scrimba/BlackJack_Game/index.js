@@ -4,6 +4,8 @@ let sum = firstCard + secondCard
 let hasBlackJack = false
 let isAlive = true
 let message = ""
+// 2. Create a startGame() function. Move the conditional
+// below (line 11-20) inside the body of the function.
 
 if (sum <= 20) {
     message = "Do you want to draw a new card? 🙂"
