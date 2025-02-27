@@ -1,7 +1,14 @@
 let age = 15
-if age <= 6 {
-    con
+if (age < 6) {
+    console.log("free")
+} else if (age < 18) {
+    console.log("child discount")
+} else if (age < 27) {
+    console.log("student discount")
+} else if ("age < 67") {
+    console.log("full price")
 }
+
 
 // less than 6 years old -> free
 // 6 to 17 years old     -> child discount
