@@ -8,6 +8,11 @@ if (age < 6) {
 } else if ("age < 67") {
     console.log("full price")
 }
+else ("age > 67") {
+    console.log("senior citizen discount")
+}
+
+
 
 
 // less than 6 years old -> free
