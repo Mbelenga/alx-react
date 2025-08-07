@@ -11,6 +11,9 @@ function playGame(event){
     const userChoice = event.target.parentElement.id;
     const computerChoice = getComputerChoice();
     const winner = determineWinner(userChoice, cdmputerChoice);
+    displayChoices(userChoice, computerChoice);
+    displayResult(winner, userChoice, computerChoice);
+    updateScore(winner);
 }
 
 function getComputerChoice(){
@@ -55,4 +58,9 @@ function displayResult(winner, userChoice, computerChoice){
     else if(winner === 'computer'){
         resultMessage.textcontent = `You lose! ${computerChoice} beats ${userChoice}`
     }
+}
+
+function displayChoices(userChoice, computerChoice){
+    userchoiceElement.innerHTML =  `<img src="${userChoice}.png">`;
+    userchoiceElement.innerHTML =  `<img src="${userChoice}.png">`;
 }
