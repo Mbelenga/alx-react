@@ -1,0 +1,16 @@
+.navelement {
+    display: block;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    transition-duration: 0.7s;
+    text-align: center;
+    width: 100px;
+}
+
+.navelement:hover {
+    background-color: lightsteelblue;
+    color: blue;
+    cursor: pointer;
+    transform: translateX(20px);
+}
