@@ -47,6 +47,12 @@ function updateScore(Winner){
 
 function displayResult(winner, userChoice, computerChoice){
     if (winner === 'draw'){
-        resultMessage.textContent = 
+        resultMessage.textContent = `it's a draw! You both chose ${userChoice}`
+    }
+    else if(winner === 'user'){
+        resultMessage.textcontent = `You lose! ${userChoice} beats ${computerChoice}`
+    }
+    else if(winner === 'computer'){
+        resultMessage.textcontent = `You lose! ${computerChoice} beats ${userChoice}`
     }
 }
